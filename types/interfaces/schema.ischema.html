@@ -61,13 +61,24 @@
 					<a href="schema.ischema.html">ISchema</a>
 				</li>
 			</ul>
-			<h1>Interface ISchema</h1>
+			<h1>Interface ISchema&lt;T, V&gt;</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-type-parameters">
+				<h3>Type parameters</h3>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>T = <a href="../modules/schema.html#schematypes" class="tsd-signature-type" data-tsd-kind="Type alias">SchemaTypes</a></h4>
+					</li>
+					<li>
+						<h4>V = <a href="../modules/schema.html#schemavaluetypes" class="tsd-signature-type" data-tsd-kind="Type alias">SchemaValueTypes</a></h4>
+					</li>
+				</ul>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -83,46 +94,24 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#additionalitems" class="tsd-kind-icon">additional<wbr>Items</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#additionalproperties" class="tsd-kind-icon">additional<wbr>Properties</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#const" class="tsd-kind-icon">const</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#default" class="tsd-kind-icon">default</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#description" class="tsd-kind-icon">description</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#display" class="tsd-kind-icon">display</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#editable" class="tsd-kind-icon">editable</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#displaytype" class="tsd-kind-icon">display<wbr>Type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#enum" class="tsd-kind-icon">enum</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#exclusivemaximum" class="tsd-kind-icon">exclusive<wbr>Maximum</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#exclusiveminimum" class="tsd-kind-icon">exclusive<wbr>Minimum</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#format" class="tsd-kind-icon">format</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#items" class="tsd-kind-icon">items</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#maxitems" class="tsd-kind-icon">max<wbr>Items</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#maxlength" class="tsd-kind-icon">max<wbr>Length</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#maxproperties" class="tsd-kind-icon">max<wbr>Properties</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#maximum" class="tsd-kind-icon">maximum</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#minitems" class="tsd-kind-icon">min<wbr>Items</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#minlength" class="tsd-kind-icon">min<wbr>Length</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#minproperties" class="tsd-kind-icon">min<wbr>Properties</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#minimum" class="tsd-kind-icon">minimum</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#multipleof" class="tsd-kind-icon">multiple<wbr>Of</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#pattern" class="tsd-kind-icon">pattern</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#patternproperties" class="tsd-kind-icon">pattern<wbr>Properties</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#enumnames" class="tsd-kind-icon">enum<wbr>Names</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#inject" class="tsd-kind-icon">inject</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#labelwidth" class="tsd-kind-icon">label<wbr>Width</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#max" class="tsd-kind-icon">max</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#min" class="tsd-kind-icon">min</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#placeholder" class="tsd-kind-icon">placeholder</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#properties" class="tsd-kind-icon">properties</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#readonly" class="tsd-kind-icon">read<wbr>Only</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#props" class="tsd-kind-icon">props</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#required" class="tsd-kind-icon">required</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#rules" class="tsd-kind-icon">rules</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#title" class="tsd-kind-icon">title</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#triggertype" class="tsd-kind-icon">trigger<wbr>Type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#type" class="tsd-kind-icon">type</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#uniqueitems" class="tsd-kind-icon">unique<wbr>Items</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#visible" class="tsd-kind-icon">visible</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#writeonly" class="tsd-kind-icon">write<wbr>Only</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_component" class="tsd-kind-icon">x-<wbr>component</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_component_props" class="tsd-kind-icon">x-<wbr>component-<wbr>props</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_effect" class="tsd-kind-icon">x-<wbr>effect</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_index" class="tsd-kind-icon">x-<wbr>index</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_item_props" class="tsd-kind-icon">x-<wbr>item-<wbr>props</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_mega_props" class="tsd-kind-icon">x-<wbr>mega-<wbr>props</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_props" class="tsd-kind-icon">x-<wbr>props</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#x_rules" class="tsd-kind-icon">x-<wbr>rules</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#widget" class="tsd-kind-icon">widget</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="schema.ischema.html#width" class="tsd-kind-icon">width</a></li>
 							</ul>
 						</section>
 					</div>
@@ -131,42 +120,12 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="additionalitems" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> additional<wbr>Items</h3>
-					<div class="tsd-signature tsd-kind-icon">additional<wbr>Items<span class="tsd-signature-symbol">:</span> <a href="schema.ischema.html" class="tsd-signature-type" data-tsd-kind="Interface">ISchema</a></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L45">packages/types/src/schema.ts:45</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="additionalproperties" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> additional<wbr>Properties</h3>
-					<div class="tsd-signature tsd-kind-icon">additional<wbr>Properties<span class="tsd-signature-symbol">:</span> <a href="schema.ischema.html" class="tsd-signature-type" data-tsd-kind="Interface">ISchema</a></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L49">packages/types/src/schema.ts:49</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="const" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> const</h3>
-					<div class="tsd-signature tsd-kind-icon">const<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L25">packages/types/src/schema.ts:25</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="default" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> default</h3>
-					<div class="tsd-signature tsd-kind-icon">default<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<div class="tsd-signature tsd-kind-icon">default<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">V</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L7">packages/types/src/schema.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L31">schema.ts:31</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -176,233 +135,135 @@
 					<div class="tsd-signature tsd-kind-icon">description<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L6">packages/types/src/schema.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L30">schema.ts:30</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="display" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> display</h3>
-					<div class="tsd-signature tsd-kind-icon">display<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span></div>
+					<a name="displaytype" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> display<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">display<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;column&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;row&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;inline&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L52">packages/types/src/schema.ts:52</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="editable" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> editable</h3>
-					<div class="tsd-signature tsd-kind-icon">editable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L50">packages/types/src/schema.ts:50</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L37">schema.ts:37</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="enum" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> enum</h3>
-					<div class="tsd-signature tsd-kind-icon">enum<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>label<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>title<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">enum<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L11">packages/types/src/schema.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L35">schema.ts:35</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="exclusivemaximum" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> exclusive<wbr>Maximum</h3>
-					<div class="tsd-signature tsd-kind-icon">exclusive<wbr>Maximum<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="enumnames" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> enum<wbr>Names</h3>
+					<div class="tsd-signature tsd-kind-icon">enum<wbr>Names<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L28">packages/types/src/schema.ts:28</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L36">schema.ts:36</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="exclusiveminimum" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> exclusive<wbr>Minimum</h3>
-					<div class="tsd-signature tsd-kind-icon">exclusive<wbr>Minimum<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="inject" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> inject</h3>
+					<div class="tsd-signature tsd-kind-icon">inject<span class="tsd-signature-symbol">:</span> <a href="styles.styleinjectschema.html" class="tsd-signature-type" data-tsd-kind="Interface">StyleInjectSchema</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="styles.styleinjectschema.html" class="tsd-signature-type" data-tsd-kind="Interface">StyleInjectSchema</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L30">packages/types/src/schema.ts:30</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L45">schema.ts:45</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="format" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> format</h3>
-					<div class="tsd-signature tsd-kind-icon">format<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="labelwidth" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> label<wbr>Width</h3>
+					<div class="tsd-signature tsd-kind-icon">label<wbr>Width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L40">packages/types/src/schema.ts:40</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L38">schema.ts:38</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="items" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> items</h3>
-					<div class="tsd-signature tsd-kind-icon">items<span class="tsd-signature-symbol">:</span> <a href="schema.ischema.html" class="tsd-signature-type" data-tsd-kind="Interface">ISchema</a><span class="tsd-signature-symbol"> | </span><a href="schema.ischema.html" class="tsd-signature-type" data-tsd-kind="Interface">ISchema</a><span class="tsd-signature-symbol">[]</span></div>
+					<a name="max" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max</h3>
+					<div class="tsd-signature tsd-kind-icon">max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L44">packages/types/src/schema.ts:44</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L41">schema.ts:41</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="maxitems" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Items</h3>
-					<div class="tsd-signature tsd-kind-icon">max<wbr>Items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="min" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> min</h3>
+					<div class="tsd-signature tsd-kind-icon">min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L34">packages/types/src/schema.ts:34</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L40">schema.ts:40</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="maxlength" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Length</h3>
-					<div class="tsd-signature tsd-kind-icon">max<wbr>Length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="placeholder" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> placeholder</h3>
+					<div class="tsd-signature tsd-kind-icon">placeholder<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L31">packages/types/src/schema.ts:31</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L32">schema.ts:32</a></li>
 						</ul>
 					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="maxproperties" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Properties</h3>
-					<div class="tsd-signature tsd-kind-icon">max<wbr>Properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L37">packages/types/src/schema.ts:37</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="maximum" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> maximum</h3>
-					<div class="tsd-signature tsd-kind-icon">maximum<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L27">packages/types/src/schema.ts:27</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="minitems" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> min<wbr>Items</h3>
-					<div class="tsd-signature tsd-kind-icon">min<wbr>Items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L35">packages/types/src/schema.ts:35</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="minlength" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> min<wbr>Length</h3>
-					<div class="tsd-signature tsd-kind-icon">min<wbr>Length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L32">packages/types/src/schema.ts:32</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="minproperties" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> min<wbr>Properties</h3>
-					<div class="tsd-signature tsd-kind-icon">min<wbr>Properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L38">packages/types/src/schema.ts:38</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="minimum" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> minimum</h3>
-					<div class="tsd-signature tsd-kind-icon">minimum<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L29">packages/types/src/schema.ts:29</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="multipleof" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> multiple<wbr>Of</h3>
-					<div class="tsd-signature tsd-kind-icon">multiple<wbr>Of<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L26">packages/types/src/schema.ts:26</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="pattern" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> pattern</h3>
-					<div class="tsd-signature tsd-kind-icon">pattern<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">RegExp</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L33">packages/types/src/schema.ts:33</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="patternproperties" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> pattern<wbr>Properties</h3>
-					<div class="tsd-signature tsd-kind-icon">pattern<wbr>Properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L46">packages/types/src/schema.ts:46</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="schema.ischema.html" class="tsd-signature-type" data-tsd-kind="Interface">ISchema</a></h5>
-							</li>
-						</ul>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="properties" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> properties</h3>
-					<div class="tsd-signature tsd-kind-icon">properties<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
+					<div class="tsd-signature tsd-kind-icon">properties<span class="tsd-signature-symbol">:</span> <a href="schema.jsonschemaproperties.html" class="tsd-signature-type" data-tsd-kind="Interface">JsonSchemaProperties</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L41">packages/types/src/schema.ts:41</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L44">schema.ts:44</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="props" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> props</h3>
+					<div class="tsd-signature tsd-kind-icon">props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L43">schema.ts:43</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
 							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="schema.ischema.html" class="tsd-signature-type" data-tsd-kind="Interface">ISchema</a></h5>
+								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></h5>
 							</li>
 						</ul>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="readonly" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> read<wbr>Only</h3>
-					<div class="tsd-signature tsd-kind-icon">read<wbr>Only<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="required" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> required</h3>
+					<div class="tsd-signature tsd-kind-icon">required<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L8">packages/types/src/schema.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L33">schema.ts:33</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="required" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> required</h3>
-					<div class="tsd-signature tsd-kind-icon">required<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<a name="rules" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> rules</h3>
+					<div class="tsd-signature tsd-kind-icon">rules<span class="tsd-signature-symbol">:</span> <a href="schema.schemarule.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaRule</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L39">packages/types/src/schema.ts:39</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L42">schema.ts:42</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -412,219 +273,37 @@
 					<div class="tsd-signature tsd-kind-icon">title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L5">packages/types/src/schema.ts:5</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="triggertype" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> trigger<wbr>Type</h3>
-					<div class="tsd-signature tsd-kind-icon">trigger<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;onBlur&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;onChange&quot;</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L53">packages/types/src/schema.ts:53</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L29">schema.ts:29</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="type" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> type</h3>
-					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<h3>type</h3>
+					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L10">packages/types/src/schema.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L28">schema.ts:28</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="uniqueitems" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> unique<wbr>Items</h3>
-					<div class="tsd-signature tsd-kind-icon">unique<wbr>Items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="widget" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> widget</h3>
+					<div class="tsd-signature tsd-kind-icon">widget<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L36">packages/types/src/schema.ts:36</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L34">schema.ts:34</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="visible" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> visible</h3>
-					<div class="tsd-signature tsd-kind-icon">visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">boolean</span></div>
+					<a name="width" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> width</h3>
+					<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L51">packages/types/src/schema.ts:51</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="writeonly" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> write<wbr>Only</h3>
-					<div class="tsd-signature tsd-kind-icon">write<wbr>Only<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L9">packages/types/src/schema.ts:9</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_component" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>component</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>component<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L65">packages/types/src/schema.ts:65</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_component_props" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>component-<wbr>props</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>component-<wbr>props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L66">packages/types/src/schema.ts:66</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>name: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></h5>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_effect" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>effect</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>effect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>dispatch<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, payload<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, option<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-symbol">{}</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L69">packages/types/src/schema.ts:69</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-signature">
-								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-interface">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>dispatch<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, payload<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, option<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span></li>
-								</ul>
-								<ul class="tsd-descriptions">
-									<li class="tsd-description">
-										<h4 class="tsd-parameters-title">Parameters</h4>
-										<ul class="tsd-parameters">
-											<li>
-												<h5>dispatch: <span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, payload<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
-												<ul class="tsd-parameters">
-													<li class="tsd-parameter-signature">
-														<ul class="tsd-signatures tsd-kind-type-literal">
-															<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, payload<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-														</ul>
-														<ul class="tsd-descriptions">
-															<li class="tsd-description">
-																<h4 class="tsd-parameters-title">Parameters</h4>
-																<ul class="tsd-parameters">
-																	<li>
-																		<h5>type: <span class="tsd-signature-type">string</span></h5>
-																	</li>
-																	<li>
-																		<h5>payload: <span class="tsd-signature-type">any</span></h5>
-																	</li>
-																</ul>
-																<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-															</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<h5><span class="tsd-flag ts-flagOptional">Optional</span> option: <span class="tsd-signature-type">object</span></h5>
-											</li>
-										</ul>
-										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{}</span></h4>
-										<ul class="tsd-parameters">
-											<li class="tsd-parameter-index-signature">
-												<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></h5>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_index" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>index</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L57">packages/types/src/schema.ts:57</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_item_props" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>item-<wbr>props</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>item-<wbr>props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L62">packages/types/src/schema.ts:62</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>name: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></h5>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_mega_props" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>mega-<wbr>props</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>mega-<wbr>props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L59">packages/types/src/schema.ts:59</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>name: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></h5>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_props" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>props</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>props<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L54">packages/types/src/schema.ts:54</a></li>
-						</ul>
-					</aside>
-					<div class="tsd-type-declaration">
-						<h4>Type declaration</h4>
-						<ul class="tsd-parameters">
-							<li class="tsd-parameter-index-signature">
-								<h5><span class="tsd-signature-symbol">[</span>name: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></h5>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="x_rules" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> x-<wbr>rules</h3>
-					<div class="tsd-signature tsd-kind-icon">x-<wbr>rules<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/schema.ts#L58">packages/types/src/schema.ts:58</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/schema.ts#L39">schema.ts:39</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -687,6 +366,9 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/publisher.html">publisher</a>
 					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/router.html">router</a>
+					</li>
 					<li class="current tsd-kind-module">
 						<a href="../modules/schema.html">schema</a>
 					</li>
@@ -699,18 +381,9 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module">
+					<li class="current tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
 						<a href="schema.ischema.html" class="tsd-kind-icon">ISchema</a>
 						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#additionalitems" class="tsd-kind-icon">additional<wbr>Items</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#additionalproperties" class="tsd-kind-icon">additional<wbr>Properties</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#const" class="tsd-kind-icon">const</a>
-							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="schema.ischema.html#default" class="tsd-kind-icon">default</a>
 							</li>
@@ -718,114 +391,75 @@
 								<a href="schema.ischema.html#description" class="tsd-kind-icon">description</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#display" class="tsd-kind-icon">display</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#editable" class="tsd-kind-icon">editable</a>
+								<a href="schema.ischema.html#displaytype" class="tsd-kind-icon">display<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="schema.ischema.html#enum" class="tsd-kind-icon">enum</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#exclusivemaximum" class="tsd-kind-icon">exclusive<wbr>Maximum</a>
+								<a href="schema.ischema.html#enumnames" class="tsd-kind-icon">enum<wbr>Names</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#exclusiveminimum" class="tsd-kind-icon">exclusive<wbr>Minimum</a>
+								<a href="schema.ischema.html#inject" class="tsd-kind-icon">inject</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#format" class="tsd-kind-icon">format</a>
+								<a href="schema.ischema.html#labelwidth" class="tsd-kind-icon">label<wbr>Width</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#items" class="tsd-kind-icon">items</a>
+								<a href="schema.ischema.html#max" class="tsd-kind-icon">max</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#maxitems" class="tsd-kind-icon">max<wbr>Items</a>
+								<a href="schema.ischema.html#min" class="tsd-kind-icon">min</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#maxlength" class="tsd-kind-icon">max<wbr>Length</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#maxproperties" class="tsd-kind-icon">max<wbr>Properties</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#maximum" class="tsd-kind-icon">maximum</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#minitems" class="tsd-kind-icon">min<wbr>Items</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#minlength" class="tsd-kind-icon">min<wbr>Length</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#minproperties" class="tsd-kind-icon">min<wbr>Properties</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#minimum" class="tsd-kind-icon">minimum</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#multipleof" class="tsd-kind-icon">multiple<wbr>Of</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#pattern" class="tsd-kind-icon">pattern</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#patternproperties" class="tsd-kind-icon">pattern<wbr>Properties</a>
+								<a href="schema.ischema.html#placeholder" class="tsd-kind-icon">placeholder</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="schema.ischema.html#properties" class="tsd-kind-icon">properties</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#readonly" class="tsd-kind-icon">read<wbr>Only</a>
+								<a href="schema.ischema.html#props" class="tsd-kind-icon">props</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="schema.ischema.html#required" class="tsd-kind-icon">required</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#title" class="tsd-kind-icon">title</a>
+								<a href="schema.ischema.html#rules" class="tsd-kind-icon">rules</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#triggertype" class="tsd-kind-icon">trigger<wbr>Type</a>
+								<a href="schema.ischema.html#title" class="tsd-kind-icon">title</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="schema.ischema.html#type" class="tsd-kind-icon">type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#uniqueitems" class="tsd-kind-icon">unique<wbr>Items</a>
+								<a href="schema.ischema.html#widget" class="tsd-kind-icon">widget</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#visible" class="tsd-kind-icon">visible</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#writeonly" class="tsd-kind-icon">write<wbr>Only</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_component" class="tsd-kind-icon">x-<wbr>component</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_component_props" class="tsd-kind-icon">x-<wbr>component-<wbr>props</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_effect" class="tsd-kind-icon">x-<wbr>effect</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_index" class="tsd-kind-icon">x-<wbr>index</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_item_props" class="tsd-kind-icon">x-<wbr>item-<wbr>props</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_mega_props" class="tsd-kind-icon">x-<wbr>mega-<wbr>props</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_props" class="tsd-kind-icon">x-<wbr>props</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="schema.ischema.html#x_rules" class="tsd-kind-icon">x-<wbr>rules</a>
+								<a href="schema.ischema.html#width" class="tsd-kind-icon">width</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="schema.jsonschemaproperties.html" class="tsd-kind-icon">Json<wbr>Schema<wbr>Properties</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="schema.schemarule.html" class="tsd-kind-icon">Schema<wbr>Rule</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/schema.html#jsonschemadefinition" class="tsd-kind-icon">JSONSchema<wbr>Definition</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/schema.html#schematypes" class="tsd-kind-icon">Schema<wbr>Types</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/schema.html#schemavaluetypes" class="tsd-kind-icon">Schema<wbr>Value<wbr>Types</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/schema.html#schemawidgettypes" class="tsd-kind-icon">Schema<wbr>Widget<wbr>Types</a>
+					</li>
 				</ul>
 			</nav>
 		</div>

@@ -79,6 +79,7 @@
 						<section class="tsd-index-section ">
 							<h3>Type aliases</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-type-alias tsd-parent-kind-module"><a href="form.html#formilyschemafield" class="tsd-kind-icon">Formily<wbr>Schema<wbr>Field</a></li>
 								<li class="tsd-kind-type-alias tsd-parent-kind-module"><a href="form.html#materialsform" class="tsd-kind-icon">Materials<wbr>Form</a></li>
 								<li class="tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter"><a href="form.html#overrideformcomponent" class="tsd-kind-icon">Override<wbr>Form<wbr>Component</a></li>
 							</ul>
@@ -89,22 +90,32 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Type aliases</h2>
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module">
-					<a name="materialsform" class="tsd-anchor"></a>
-					<h3>Materials<wbr>Form</h3>
-					<div class="tsd-signature tsd-kind-icon">Materials<wbr>Form<span class="tsd-signature-symbol">:</span> <a href="../interfaces/helper.jsonschemaproperties.html" class="tsd-signature-type" data-tsd-kind="Interface">JsonSchemaProperties</a><span class="tsd-signature-symbol"> | </span><a href="form.html#overrideformcomponent" class="tsd-signature-type" data-tsd-kind="Type alias">OverrideFormComponent</a></div>
+					<a name="formilyschemafield" class="tsd-anchor"></a>
+					<h3>Formily<wbr>Schema<wbr>Field</h3>
+					<div class="tsd-signature tsd-kind-icon">Formily<wbr>Schema<wbr>Field<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReturnType</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">typeof </span><span class="tsd-signature-type">createSchemaField</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/form.ts#L26">packages/types/src/form.ts:26</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/form.ts#L13">form.ts:13</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module">
+					<a name="materialsform" class="tsd-anchor"></a>
+					<h3>Materials<wbr>Form</h3>
+					<div class="tsd-signature tsd-kind-icon">Materials<wbr>Form<span class="tsd-signature-symbol">:</span> <a href="../interfaces/schema.jsonschemaproperties.html" class="tsd-signature-type" data-tsd-kind="Interface">JsonSchemaProperties</a><span class="tsd-signature-symbol"> | </span><a href="form.html#overrideformcomponent" class="tsd-signature-type" data-tsd-kind="Type alias">OverrideFormComponent</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/form.ts#L31">form.ts:31</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-module tsd-has-type-parameter">
 					<a name="overrideformcomponent" class="tsd-anchor"></a>
 					<h3>Override<wbr>Form<wbr>Component</h3>
-					<div class="tsd-signature tsd-kind-icon">Override<wbr>Form<wbr>Component&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>Formily<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>JSONSchemaForm<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/form.schemaformprops.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>onChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">Override<wbr>Form<wbr>Component&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>Formily<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>getSchemaField<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="form.html#formilyschemafield" class="tsd-signature-type" data-tsd-kind="Type alias">FormilySchemaField</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">; </span>JSONSchemaForm<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/form.schemaformprops.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>onChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/form.ts#L12">packages/types/src/form.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/form.ts#L15">form.ts:15</a></li>
 						</ul>
 					</aside>
 					<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -174,6 +185,9 @@
 						<a href="publisher.html">publisher</a>
 					</li>
 					<li class=" tsd-kind-module">
+						<a href="router.html">router</a>
+					</li>
+					<li class=" tsd-kind-module">
 						<a href="schema.html">schema</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -188,6 +202,9 @@
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
 						<a href="../interfaces/form.schemaformprops.html" class="tsd-kind-icon">Schema<wbr>Form<wbr>Props</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="form.html#formilyschemafield" class="tsd-kind-icon">Formily<wbr>Schema<wbr>Field</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
 						<a href="form.html#materialsform" class="tsd-kind-icon">Materials<wbr>Form</a>

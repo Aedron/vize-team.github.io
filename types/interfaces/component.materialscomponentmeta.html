@@ -86,6 +86,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#dataform" class="tsd-kind-icon">data<wbr>Form</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#emitevents" class="tsd-kind-icon">emit<wbr>Events</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#enablestylegroup" class="tsd-kind-icon">enable<wbr>Style<wbr>Group</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#enablestyleinject" class="tsd-kind-icon">enable<wbr>Style<wbr>Inject</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#enablewrapperstylegroup" class="tsd-kind-icon">enable<wbr>Wrapper<wbr>Style<wbr>Group</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#hideeditmask" class="tsd-kind-icon">hide<wbr>Edit<wbr>Mask</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="component.materialscomponentmeta.html#hotarea" class="tsd-kind-icon">hot<wbr>Area</a></li>
@@ -110,10 +111,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="dataform" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> data<wbr>Form</h3>
-					<div class="tsd-signature tsd-kind-icon">data<wbr>Form<span class="tsd-signature-symbol">:</span> <a href="helper.jsonschemaproperties.html" class="tsd-signature-type" data-tsd-kind="Interface">JsonSchemaProperties</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ComponentClass</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>Formily<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>JSONSchemaForm<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="form.schemaformprops.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>onChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">FunctionComponent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>Formily<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>JSONSchemaForm<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="form.schemaformprops.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>onChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">data<wbr>Form<span class="tsd-signature-symbol">:</span> <a href="../modules/form.html#materialsform" class="tsd-signature-type" data-tsd-kind="Type alias">MaterialsForm</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L15">packages/types/src/component.ts:15</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L15">component.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -123,7 +124,7 @@
 					<div class="tsd-signature tsd-kind-icon">emit<wbr>Events<span class="tsd-signature-symbol">:</span> <a href="events.materialscustomevent.html" class="tsd-signature-type" data-tsd-kind="Interface">MaterialsCustomEvent</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L25">packages/types/src/component.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L25">component.ts:25</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -133,7 +134,17 @@
 					<div class="tsd-signature tsd-kind-icon">enable<wbr>Style<wbr>Group<span class="tsd-signature-symbol">:</span> <a href="styles.commonstylemeta.html" class="tsd-signature-type" data-tsd-kind="Interface">CommonStyleMeta</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;*&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L17">packages/types/src/component.ts:17</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L17">component.ts:17</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="enablestyleinject" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> enable<wbr>Style<wbr>Inject</h3>
+					<div class="tsd-signature tsd-kind-icon">enable<wbr>Style<wbr>Inject<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L28">component.ts:28</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -143,7 +154,7 @@
 					<div class="tsd-signature tsd-kind-icon">enable<wbr>Wrapper<wbr>Style<wbr>Group<span class="tsd-signature-symbol">:</span> <a href="styles.commonstylemeta.html" class="tsd-signature-type" data-tsd-kind="Interface">CommonStyleMeta</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;*&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L18">packages/types/src/component.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L18">component.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -153,7 +164,7 @@
 					<div class="tsd-signature tsd-kind-icon">hide<wbr>Edit<wbr>Mask<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L26">packages/types/src/component.ts:26</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L26">component.ts:26</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -163,7 +174,7 @@
 					<div class="tsd-signature tsd-kind-icon">hot<wbr>Area<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L22">packages/types/src/component.ts:22</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L22">component.ts:22</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -173,7 +184,7 @@
 					<div class="tsd-signature tsd-kind-icon">identity<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L11">packages/types/src/component.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L11">component.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -183,7 +194,7 @@
 					<div class="tsd-signature tsd-kind-icon">info<span class="tsd-signature-symbol">:</span> <a href="materials.materialsinfo.html" class="tsd-signature-type" data-tsd-kind="Interface">MaterialsInfo</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L14">packages/types/src/component.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L14">component.ts:14</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -193,7 +204,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Build<wbr>In<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L27">packages/types/src/component.ts:27</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L27">component.ts:27</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -203,7 +214,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Container<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L21">packages/types/src/component.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L21">component.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -213,7 +224,7 @@
 					<div class="tsd-signature tsd-kind-icon">lib<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L12">packages/types/src/component.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L12">component.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -223,7 +234,7 @@
 					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L13">packages/types/src/component.ts:13</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L13">component.ts:13</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -233,7 +244,7 @@
 					<div class="tsd-signature tsd-kind-icon">on<wbr>Events<span class="tsd-signature-symbol">:</span> <a href="events.materialscustomevent.html" class="tsd-signature-type" data-tsd-kind="Interface">MaterialsCustomEvent</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L24">packages/types/src/component.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L24">component.ts:24</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -243,7 +254,7 @@
 					<div class="tsd-signature tsd-kind-icon">preview<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L20">packages/types/src/component.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L20">component.ts:20</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -253,17 +264,17 @@
 					<div class="tsd-signature tsd-kind-icon">runtime<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;react&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;rax&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L23">packages/types/src/component.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L23">component.ts:23</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="styleform" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> style<wbr>Form</h3>
-					<div class="tsd-signature tsd-kind-icon">style<wbr>Form<span class="tsd-signature-symbol">:</span> <a href="helper.jsonschemaproperties.html" class="tsd-signature-type" data-tsd-kind="Interface">JsonSchemaProperties</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ComponentClass</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>Formily<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>JSONSchemaForm<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="form.schemaformprops.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>onChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">FunctionComponent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>Formily<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">; </span>JSONSchemaForm<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><a href="form.schemaformprops.html" class="tsd-signature-type" data-tsd-kind="Interface">SchemaFormProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>onChange<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">style<wbr>Form<span class="tsd-signature-symbol">:</span> <a href="../modules/form.html#materialsform" class="tsd-signature-type" data-tsd-kind="Type alias">MaterialsForm</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L16">packages/types/src/component.ts:16</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L16">component.ts:16</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -273,7 +284,7 @@
 					<div class="tsd-signature tsd-kind-icon">thumb<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/vize-team/vize/blob/d37753f/packages/types/src/component.ts#L19">packages/types/src/component.ts:19</a></li>
+							<li>Defined in <a href="https://github.com/vize-team/vize/blob/30d8cf8/packages/types/src/component.ts#L19">component.ts:19</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -337,6 +348,9 @@
 						<a href="../modules/publisher.html">publisher</a>
 					</li>
 					<li class=" tsd-kind-module">
+						<a href="../modules/router.html">router</a>
+					</li>
+					<li class=" tsd-kind-module">
 						<a href="../modules/schema.html">schema</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -383,6 +397,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="component.materialscomponentmeta.html#enablestylegroup" class="tsd-kind-icon">enable<wbr>Style<wbr>Group</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="component.materialscomponentmeta.html#enablestyleinject" class="tsd-kind-icon">enable<wbr>Style<wbr>Inject</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="component.materialscomponentmeta.html#enablewrapperstylegroup" class="tsd-kind-icon">enable<wbr>Wrapper<wbr>Style<wbr>Group</a>
